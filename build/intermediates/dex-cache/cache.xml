@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/tt/Sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
+        jumboMode="false"
+        revision="24.0.3"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="/home/tt/Downloads/Udacity/xyzreader/XYZReader/build/intermediates/pre-dexed/debug/support-annotations-24.2.1-27a246675e57a0fcddcbf48ef29083ca74e6fea6.jar" />
+    </item>
+    <item
+        jar="/home/tt/Downloads/Udacity/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/classes.jar"
+        jumboMode="false"
+        revision="24.0.3"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="/home/tt/Downloads/Udacity/xyzreader/XYZReader/build/intermediates/pre-dexed/debug/classes-9d83f5d5f4738be4de3c1ab5189499676c2341b2.jar" />
+    </item>
+    <item
+        jar="/home/tt/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.1.2/7052283359001bb108753cb0583a887d3bf94c82/okhttp-3.1.2.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="7052283359001bb108753cb0583a887d3bf94c82">
+        <dex dex="/home/tt/Downloads/Udacity/xyzreader/XYZReader/build/intermediates/pre-dexed/debug/okhttp-3.1.2-d152d4361d569708a5a43d1dbcebdcd3a57bfe5f.jar" />
+    </item>
+    <item
+        jar="/home/tt/Downloads/Udacity/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/support-v13/24.2.1/classes.jar"
+        jumboMode="false"
+        revision="24.0.3"
+        sha1="e3c7e8ff9f476d0d93ee7b046fbe8037a2b822c0">
+        <dex dex="/home/tt/Downloads/Udacity/xyzreader/XYZReader/build/intermediates/pre-dexed/debug/classes-3e1caa349e400ae91156588d2e386dc68b7e798d.jar" />
+    </item>
+    <item
+        jar="/home/tt/Downloads/Udacity/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        revision="24.0.3"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="/home/tt/Downloads/Udacity/xyzreader/XYZReader/build/intermediates/pre-dexed/debug/internal_impl-24.2.1-2c68b3b8f812bde336981de79a1f8f254a2fd658.jar" />
+    </item>
+    <item
+        jar="/home/tt/Downloads/Udacity/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/support-v13/24.2.1/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        revision="24.0.3"
+        sha1="c07fb99b729345908dda75fadbbf882e300631ff">
+        <dex dex="/home/tt/Downloads/Udacity/xyzreader/XYZReader/build/intermediates/pre-dexed/debug/internal_impl-24.2.1-28a1089d8ef727e9fbc0bb11b0f0bc37b5c5aa21.jar" />
+    </item>
+    <item
+        jar="/home/tt/Downloads/Udacity/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/classes.jar"
+        jumboMode="false"
+        revision="24.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/tt/Downloads/Udacity/xyzreader/XYZReader/build/intermediates/pre-dexed/debug/classes-376fd422a422a6d96c123c20cf76f8acd233cdc6.jar" />
+    </item>
+    <item
+        jar="/home/tt/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.1.2/7052283359001bb108753cb0583a887d3bf94c82/okhttp-3.1.2.jar"
+        jumboMode="false"
+        revision="24.0.3"
+        sha1="7052283359001bb108753cb0583a887d3bf94c82">
+        <dex dex="/home/tt/Downloads/Udacity/xyzreader/XYZReader/build/intermediates/pre-dexed/debug/okhttp-3.1.2-d152d4361d569708a5a43d1dbcebdcd3a57bfe5f.jar" />
+    </item>
+    <item
+        jar="/home/tt/Downloads/Udacity/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/classes.jar"
+        jumboMode="false"
+        revision="24.0.3"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="/home/tt/Downloads/Udacity/xyzreader/XYZReader/build/intermediates/pre-dexed/debug/classes-5724755f89f20d1a10ebc4716d72d9e54496ef55.jar" />
+    </item>
+    <item
+        jar="/home/tt/Downloads/Udacity/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        revision="24.0.3"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="/home/tt/Downloads/Udacity/xyzreader/XYZReader/build/intermediates/pre-dexed/debug/internal_impl-24.2.1-2592874eab63c42d67c4a8b96da09a02a5fce3d3.jar" />
+    </item>
+    <item
+        jar="/home/tt/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.6.0/98476622f10715998eacf9240d6b479f12c66143/okio-1.6.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="/home/tt/Downloads/Udacity/xyzreader/XYZReader/build/intermediates/pre-dexed/debug/okio-1.6.0-f9805a1b3a40daecd03b5109bef63ef9bdf90478.jar" />
+    </item>
+    <item
+        jar="/home/tt/Downloads/Udacity/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/classes.jar"
+        jumboMode="false"
+        revision="24.0.3"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="/home/tt/Downloads/Udacity/xyzreader/XYZReader/build/intermediates/pre-dexed/debug/classes-7dc98f23400834532cae0b1412dd6d12b1a9ca75.jar" />
+    </item>
+    <item
+        jar="/home/tt/Downloads/Udacity/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/classes.jar"
+        jumboMode="false"
+        revision="24.0.3"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="/home/tt/Downloads/Udacity/xyzreader/XYZReader/build/intermediates/pre-dexed/debug/classes-663c29e539a8e65343f3acd06a713350b7ae5409.jar" />
+    </item>
+    <item
+        jar="/home/tt/Downloads/Udacity/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/cardview-v7/24.2.1/classes.jar"
+        jumboMode="false"
+        revision="24.0.3"
+        sha1="c5e6490573cd2cc8018417f60ddd251138b6ed61">
+        <dex dex="/home/tt/Downloads/Udacity/xyzreader/XYZReader/build/intermediates/pre-dexed/debug/classes-c9529915a7aaa74f8cb5e2a6a90a08ae7d283610.jar" />
+    </item>
+    <item
+        jar="/home/tt/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.6.0/98476622f10715998eacf9240d6b479f12c66143/okio-1.6.0.jar"
+        jumboMode="false"
+        revision="24.0.3"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="/home/tt/Downloads/Udacity/xyzreader/XYZReader/build/intermediates/pre-dexed/debug/okio-1.6.0-f9805a1b3a40daecd03b5109bef63ef9bdf90478.jar" />
+    </item>
+    <item
+        jar="/home/tt/Downloads/Udacity/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        revision="24.0.3"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="/home/tt/Downloads/Udacity/xyzreader/XYZReader/build/intermediates/pre-dexed/debug/internal_impl-24.2.1-b402ac4a5cf318ab5714d0102c40a783bc7aa6cc.jar" />
+    </item>
+    <item
+        jar="/home/tt/Downloads/Udacity/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/classes.jar"
+        jumboMode="false"
+        revision="24.0.3"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="/home/tt/Downloads/Udacity/xyzreader/XYZReader/build/intermediates/pre-dexed/debug/classes-2ae1c967b8a961d9a57ff4c5770a62a95518f61b.jar" />
+    </item>
+    <item
+        jar="/home/tt/Downloads/Udacity/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/classes.jar"
+        jumboMode="false"
+        revision="24.0.3"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="/home/tt/Downloads/Udacity/xyzreader/XYZReader/build/intermediates/pre-dexed/debug/classes-ed742141fc3d3c581e90855d36e047ab15a1960d.jar" />
+    </item>
+    <item
+        jar="/home/tt/Downloads/Udacity/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/classes.jar"
+        jumboMode="false"
+        revision="24.0.3"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="/home/tt/Downloads/Udacity/xyzreader/XYZReader/build/intermediates/pre-dexed/debug/classes-df25d87c6f2a609f82fc49c4e1c7631c75a13b9d.jar" />
+    </item>
+    <item
+        jar="/home/tt/Downloads/Udacity/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/classes.jar"
+        jumboMode="false"
+        revision="24.0.3"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="/home/tt/Downloads/Udacity/xyzreader/XYZReader/build/intermediates/pre-dexed/debug/classes-cd9e0f4a6b8b1106ca9749b06a10ba19da25c0d9.jar" />
+    </item>
+    <item
+        jar="/home/tt/Downloads/Udacity/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/palette-v7/24.2.1/classes.jar"
+        jumboMode="false"
+        revision="24.0.3"
+        sha1="3b7105277df9a8013468215c451ddefac2499d3a">
+        <dex dex="/home/tt/Downloads/Udacity/xyzreader/XYZReader/build/intermediates/pre-dexed/debug/classes-7c718c78dcfc834a40aebf43e0b8505da74b952a.jar" />
+    </item>
+    <item
+        jar="/home/tt/Downloads/Udacity/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        revision="24.0.3"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="/home/tt/Downloads/Udacity/xyzreader/XYZReader/build/intermediates/pre-dexed/debug/internal_impl-24.2.1-e85d335b0c4666d82b82a0dfd0c7fbded7216bf6.jar" />
+    </item>
+    <item
+        jar="/home/tt/Downloads/Udacity/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.2.1/classes.jar"
+        jumboMode="false"
+        revision="24.0.3"
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="/home/tt/Downloads/Udacity/xyzreader/XYZReader/build/intermediates/pre-dexed/debug/classes-8f4f9d7f47a4460595e8a182142a25403d3ce649.jar" />
+    </item>
+    <item
+        jar="/home/tt/Downloads/Udacity/xyzreader/XYZReader/libs/volley.jar"
+        jumboMode="false"
+        revision="24.0.3"
+        sha1="c68094cbd011a3f9dccbfe16e77a2cf43622e277">
+        <dex dex="/home/tt/Downloads/Udacity/xyzreader/XYZReader/build/intermediates/pre-dexed/debug/volley-0655662c3d875d032d762bf6fe6baec7291238ac.jar" />
+    </item>
+    <item
+        jar="/home/tt/Downloads/Udacity/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        revision="24.0.3"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="/home/tt/Downloads/Udacity/xyzreader/XYZReader/build/intermediates/pre-dexed/debug/internal_impl-24.2.1-1c606c80ea7c5fdf23c5e3eaf181b7a8eacc5ba7.jar" />
+    </item>
+    <item
+        jar="/home/tt/Downloads/Udacity/xyzreader/XYZReader/libs/volley.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="c68094cbd011a3f9dccbfe16e77a2cf43622e277">
+        <dex dex="/home/tt/Downloads/Udacity/xyzreader/XYZReader/build/intermediates/pre-dexed/debug/volley-0655662c3d875d032d762bf6fe6baec7291238ac.jar" />
+    </item>
+    <item
+        jar="/home/tt/Downloads/Udacity/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/design/24.2.1/classes.jar"
+        jumboMode="false"
+        revision="24.0.3"
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="/home/tt/Downloads/Udacity/xyzreader/XYZReader/build/intermediates/pre-dexed/debug/classes-b8548567f7e66fb762c84dbd5b665e0956fbc8c8.jar" />
+    </item>
+
+</items>

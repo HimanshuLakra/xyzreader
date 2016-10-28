@@ -1,0 +1,73 @@
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginLeft="4dp"
+    android:layout_marginRight="4dp"
+    android:layout_marginTop="4dp"
+    android:layout_marginBottom="4dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?selectableItemBackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/root_view">
+
+        <!--suppress AndroidLintContentDescription -->
+        <com.example.xyzreader.ui.DynamicHeightNetworkImageView
+            android:id="@+id/thumbnail"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@color/photo_placeholder"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:id="@+id/article_title"
+            android:textSize="15sp"
+            android:fontFamily="roboto-medium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            tools:text="I cantc sansjn csandaj"/>
+
+        <TextView
+            android:id="@+id/article_subtitle"
+            android:textSize="13sp"
+            android:fontFamily="roboto-regular"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#80000000"
+            android:maxLines="1"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            tools:text="by himanshu"
+            android:ellipsize="end" />
+
+        <TextView
+            android:id="@+id/article_date"
+            android:textSize="11sp"
+            android:fontFamily="roboto-regular"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#80000000"
+            android:maxLines="1"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            tools:text="by himanshu"
+            android:ellipsize="end" />
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
+<!-- From: file:/home/tt/Downloads/Udacity/xyzreader/XYZReader/src/main/res/layout/list_item_article.xml -->
