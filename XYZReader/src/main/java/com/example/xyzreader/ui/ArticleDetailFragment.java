@@ -50,6 +50,7 @@ public class ArticleDetailFragment extends Fragment implements
     private ImageView mPhotoView;
     private String title, subTitle;
     private ProgressBar progressBar;
+    private LinearLayout metaBar;
 
     /**
      * Mandatory empty constructor for the fragment manager to instantiate the
@@ -98,6 +99,7 @@ public class ArticleDetailFragment extends Fragment implements
         mRootView = inflater.inflate(R.layout.fragment_article_detail, container, false);
 
         progressBar = (ProgressBar) mRootView.findViewById(R.id.progress_bar);
+        metaBar = (LinearLayout) mRootView.findViewById(R.id.meta_bar);
         final Toolbar toolbar = (Toolbar) mRootView.findViewById(R.id.toolbar_detail);
         toolbar.setNavigationIcon(R.drawable.ic_arrow_back);
         toolbar.setNavigationOnClickListener(new View.OnClickListener() {
@@ -154,6 +156,8 @@ public class ArticleDetailFragment extends Fragment implements
             }
         });
 
+        showProgressBar(true);
+
         bindViews();
         return mRootView;
     }
@@ -205,16 +209,16 @@ public class ArticleDetailFragment extends Fragment implements
                         }
                     });
         } else {
-            showProgressBar(true);
-            titleView.setText("N/A");
-            bylineView.setText("N/A");
-            bodyView.setText("N/A");
+            showProgressBar(false);
+            titleView.setText("");
+            bylineView.setText("");
+            bodyView.setText("Loading ...");
         }
     }
 
     private void showProgressBar(boolean show) {
         progressBar.setVisibility(show ? View.VISIBLE : View.GONE);
-        mRootView.setVisibility(show ? View.GONE : View.VISIBLE);
+        metaBar.setVisibility(show ? View.GONE : View.VISIBLE);
     }
 
     @Override
