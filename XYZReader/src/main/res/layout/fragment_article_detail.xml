@@ -119,6 +119,7 @@
         android:layout_height="56dp"
         android:layout_marginRight="@dimen/fab_margin"
         android:contentDescription="@string/action_share"
+        android:stateListAnimator="@anim/fab_state_list_anim"
         android:padding="8dp"
         android:src="@drawable/ic_share"
         app:layout_anchor="@id/app_bar"
