@@ -11,6 +11,7 @@ import android.os.Bundle;
 import android.support.design.widget.CollapsingToolbarLayout;
 import android.support.v4.app.ShareCompat;
 import android.support.v4.widget.NestedScrollView;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.graphics.Palette;
 import android.support.v7.widget.Toolbar;
 import android.text.Html;
@@ -108,6 +109,8 @@ public class ArticleDetailFragment extends Fragment implements
                 getActivity().onBackPressed();
             }
         });
+
+        ((AppCompatActivity) getActivity()).setSupportActionBar(toolbar);
         mPhotoView = (ImageView) mRootView.findViewById(R.id.photo);
         mRootView.findViewById(R.id.share_fab).setOnClickListener(new View.OnClickListener() {
             @Override
@@ -134,6 +137,8 @@ public class ArticleDetailFragment extends Fragment implements
         );
 
         final CollapsingToolbarLayout collapsingToolbarLayout = (CollapsingToolbarLayout) mRootView.findViewById(R.id.collapsing_toolbar);
+        collapsingToolbarLayout.setTitle(" ");
+        collapsingToolbarLayout.setTitleEnabled(true);
 
         ((NestedScrollView) mRootView.findViewById(R.id.nested_scroll_view)).setOnScrollChangeListener(new NestedScrollView.OnScrollChangeListener() {
             @Override
@@ -141,16 +146,12 @@ public class ArticleDetailFragment extends Fragment implements
                 layoutHeader.getGlobalVisibleRect(layoutHeaderRect);
                 //upwards
                 if (oldScrollY < scrollY) {
-                    if (layoutHeaderRect.top < toolbarRect.top) {
+                    if (layoutHeaderRect.bottom < toolbarRect.bottom) {
                         collapsingToolbarLayout.setTitle(title != null ? title : "");
-                        collapsingToolbarLayout.setTitleEnabled(true);
-                        toolbar.setSubtitle(subTitle != null ? Html.fromHtml(subTitle) : "");
                     }
                 } else {
-                    if (layoutHeaderRect.top > toolbarRect.top) {
-                        collapsingToolbarLayout.setTitleEnabled(false);
+                    if (layoutHeaderRect.bottom > toolbarRect.bottom) {
                         collapsingToolbarLayout.setTitle("");
-                        toolbar.setSubtitle("");
                     }
                 }
             }
